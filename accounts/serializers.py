@@ -2,9 +2,8 @@ from allauth.account.adapter import get_adapter
 from allauth.account.utils import setup_user_email
 from django.conf import settings
 from django.contrib.auth.models import Group
-from rest_auth.registration.serializers import (
-    RegisterSerializer as RegisterBaseSerializer,
-)
+from rest_auth.registration.serializers import \
+    RegisterSerializer as RegisterBaseSerializer
 from rest_framework import serializers
 
 

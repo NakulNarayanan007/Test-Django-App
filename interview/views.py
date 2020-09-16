@@ -4,7 +4,8 @@ from rest_framework.permissions import IsAdminUser, IsAuthenticated
 from rest_framework.response import Response
 
 from interview.models import Schedule
-from interview.serializers import ListScheduleSerializer, ScheduleModelSerializer
+from interview.serializers import (ListScheduleSerializer,
+                                   ScheduleModelSerializer)
 
 
 class RegisterScheduleView(CreateAPIView):
