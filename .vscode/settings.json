@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "/home/sinergia/envs/entri-env/bin/python",
+    "python.formatting.provider": "black"
+}

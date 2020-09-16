@@ -1,0 +1,6 @@
+coreapi==2.3.3
+Django==3.1.1
+django-allauth==0.42.0
+django-dynamic-fixture @ git+https://github.com/DrMartiner/django-dynamic-fixture.git@eae3356d57e33c85d7bc55c00b2a694295d23084
+django-rest-auth==0.9.5
+djangorestframework==3.11.1
